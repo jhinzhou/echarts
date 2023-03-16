@@ -1,6 +1,6 @@
 <template>
   <div
-    style="width: 800px; height: 500px; display: flex; justify-content: center; align-items: center"
+    style="width: 100%; height: 60%; display: flex; justify-content: center; align-items: center"
   >
     <div id="china" style="width: 100%; height: 100%"></div>
   </div>
