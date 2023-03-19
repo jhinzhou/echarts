@@ -2,8 +2,8 @@ const mapData = {
   citys: [
     {
       name: '苏州',
-      value: [120.62, 31.32, 4],
-      symbolSize: 5,
+      value: [120.62, 31.32, 40],
+      symbolSize: 10,
       itemStyle: { normal: { color: '#F58158' } }
     },
     {
@@ -80,7 +80,7 @@ const mapData = {
     },
     {
       name: '呼和浩特',
-      value: [111.749181, 40.842585, 2],
+      value: [111.749181, 40.842585, 10],
       symbolSize: 2,
       itemStyle: { normal: { color: '#F58158' } }
     },
@@ -117,12 +117,6 @@ const mapData = {
     {
       name: '南昌',
       value: [115.858198, 28.682892, 2],
-      symbolSize: 2,
-      itemStyle: { normal: { color: '#F58158' } }
-    },
-    {
-      name: '贵阳',
-      value: [106.630154, 26.647661, 2],
       symbolSize: 2,
       itemStyle: { normal: { color: '#F58158' } }
     },
@@ -171,6 +165,186 @@ const mapData = {
     {
       name: '湖北',
       value: [114.341862, 30.546498, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '九江',
+      value: [116.0, 29.7, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '佛山',
+      value: [112.8955, 23.1097, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '保定',
+      value: [115.0488, 39.0948, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '南宁',
+      value: [108.479, 23.1152, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '南昌',
+      value: [116.0046, 28.6633, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '咸阳',
+      value: [108.4131, 34.8706, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '哈尔滨',
+      value: [127.9688, 45.368, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '唐山',
+      value: [118.4766, 39.6826, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '大同',
+      value: [113.7854, 39.8035, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '天津',
+      value: [117.4219, 39.4189, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '太原',
+      value: [112.3352, 37.9413, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '威海',
+      value: [121.9482, 37.1393, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '廊坊',
+      value:[ 116.521, 39.0509, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '延安',
+      value: [109.1052, 36.4252, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '张家口',
+      value: [115.1477, 40.8527, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '承德',
+      value: [117.5757, 41.4075, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '柳州',
+      value: [109.3799, 24.9774, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '株洲',
+      value: [113.5327, 27.0319, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '武汉',
+      value: [114.3896, 30.6628, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '湘潭',
+      value: [112.5439, 27.7075, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '滨州',
+      value: [117.8174, 37.4963, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '潍坊',
+      value: [119.0918, 36.524, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '金华',
+      value: [120.0037, 29.1028, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '铜川',
+      value: [109.0393, 35.1947, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '银川',
+      value: [106.3586, 38.1775, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '镇江',
+      value: [119.4763, 31.9702, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '长春',
+      value: [125.8154, 44.2584, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '长沙',
+      value: [113.0823, 28.2568, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '长治',
+      value: [112.8625, 36.4746, -4],
+      symbolSize: 2,
+      itemStyle: { normal: { color: '#58B3CC' } }
+    },
+    {
+      name: '阳泉',
+      value: [113.4778, 38.0951, -4],
       symbolSize: 2,
       itemStyle: { normal: { color: '#58B3CC' } }
     }
@@ -330,14 +504,6 @@ const mapData = {
     },
     {
       fromName: '苏州',
-      toName: '贵阳',
-      coords: [
-        [120.62, 31.32],
-        [106.630154, 26.647661]
-      ]
-    },
-    {
-      fromName: '苏州',
       toName: '成都',
       coords: [
         [120.62, 31.32],
@@ -398,6 +564,246 @@ const mapData = {
       coords: [
         [120.62, 31.32],
         [114.341862, 30.546498]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '九江',
+      coords: [
+        [120.62, 31.32],
+        [116.0, 29.7]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '佛山',
+      coords: [
+        [120.62, 31.32],
+        [112.8955, 23.1097]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '保定',
+      coords: [
+        [120.62, 31.32],
+        [115.0488, 39.0948]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '南宁',
+      coords: [
+        [120.62, 31.32],
+        [108.479, 23.1152]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '南昌',
+      coords: [
+        [120.62, 31.32],
+        [116.0046, 28.6633]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '咸阳',
+      coords: [
+        [120.62, 31.32],
+        [108.4131, 34.8706]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '哈尔滨',
+      coords: [
+        [120.62, 31.32],
+        [127.9688, 45.368]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '唐山',
+      coords: [
+        [120.62, 31.32],
+        [118.4766, 39.6826]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '大同',
+      coords: [
+        [120.62, 31.32],
+        [113.7854, 39.8035]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '天津',
+      coords: [
+        [120.62, 31.32],
+        [117.4219, 39.4189]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '太原',
+      coords: [
+        [120.62, 31.32],
+        [112.3352, 37.9413]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '威海',
+      coords: [
+        [120.62, 31.32],
+        [121.9482, 37.1393]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '廊坊',
+      coords: [
+        [120.62, 31.32],
+        [116.521, 39.0509]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '延安',
+      coords: [
+        [120.62, 31.32],
+        [109.1052, 36.4252]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '张家口',
+      coords: [
+        [120.62, 31.32],
+        [115.1477, 40.8527]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '承德',
+      coords: [
+        [120.62, 31.32],
+        [117.5757, 41.4075]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '柳州',
+      coords: [
+        [120.62, 31.32],
+        [109.3799, 24.9774]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '株洲',
+      coords: [
+        [120.62, 31.32],
+        [113.5327, 27.0319]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '武汉',
+      coords: [
+        [120.62, 31.32],
+        [114.3896, 30.6628]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '湘潭',
+      coords: [
+        [120.62, 31.32],
+        [112.5439, 27.7075]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '滨州',
+      coords: [
+        [120.62, 31.32],
+        [117.8174, 37.4963]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '潍坊',
+      coords: [
+        [120.62, 31.32],
+        [119.0918, 36.524]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '金华',
+      coords: [
+        [120.62, 31.32],
+        [120.0037, 29.1028]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '铜川',
+      coords: [
+        [120.62, 31.32],
+        [109.0393, 35.1947]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '银川',
+      coords: [
+        [120.62, 31.32],
+        [106.3586, 38.1775]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '镇江',
+      coords: [
+        [120.62, 31.32],
+        [119.4763, 31.9702]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '长春',
+      coords: [
+        [120.62, 31.32],
+        [125.8154, 44.2584]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '长沙',
+      coords: [
+        [120.62, 31.32],
+        [113.0823, 28.2568]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '长治',
+      coords: [
+        [120.62, 31.32],
+        [112.8625, 36.4746]
+      ]
+    },
+    {
+      fromName: '苏州',
+      toName: '阳泉',
+      coords: [
+        [120.62, 31.32],
+        [113.4778, 38.0951]
       ]
     }
   ]

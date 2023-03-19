@@ -38,19 +38,21 @@ const showEcharts = () => {
       map: 'china',
       label: {
         emphasis: {
-          show: false
+          show: true
         }
       },
-      roam: true,
+      roam: false,
       itemStyle: {
         normal: {
           areaColor: 'rgba(7,21,57,0.5)',
-          borderColor: '#0177ff'
+          borderColor: '#ccffff'
         },
         emphasis: {
-          areaColor: '#071537' //鼠标指上市时的颜色
+          areaColor: '#99ccff' //鼠标指上市时的颜色
         }
-      }
+      },
+      zoom: 1.0, //放大效果
+      center: [106.948024, 32.563161] //地图的视觉中心
     },
     series: [
       {
@@ -81,13 +83,13 @@ const showEcharts = () => {
         name: '线路',
         type: 'lines',
         coordinateSystem: 'geo',
-        zlevel: 2,
+        zlevel: 8,
         large: true,
         effect: {
           show: true,
           constantSpeed: 30,
           symbol: 'pin',
-          symbolSize: 3,
+          symbolSize: 4,
           trailLength: 0
         },
         lineStyle: {
@@ -110,7 +112,7 @@ const showEcharts = () => {
               false
             ),
             width: 1,
-            opacity: 0.2,
+            opacity: 0.3,
             curveness: 0.1
           }
         },
@@ -135,6 +137,6 @@ onMounted(() => {
 .visual_chart {
   opacity: 0.8;
   width: 100%;
-  height: 70%;
+  height: 90%;
 }
 </style>
